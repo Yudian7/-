@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.g-bd{
+    width: 100%;
+    height:2572px;
+}
+.header-container{
+    width:100%;
+    height:531px;
+    background: linear-gradient(-90deg, #FF8D73 0, #FF6251 100%, #FF5A56 100%)
+}
+.content{
+    background: url("../img/lent/header.png") no-repeat center right;
+    background-size:529px 345px;
+    margin: 0 auto;
+    padding-top:26px;
+    width:978px;
+    height:468px;
+    position: relative;
+    left: 10px;
+    color: #fff;
+}
+.content h3{
+    height:70px;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 500;
+    letter-spacing: 1.07px;
+    margin: 0;
+}
+.content .intro{
+    width:978px;
+    height:90px;
+    margin-top: 20px;
+}
+.content .qrcode{
+    width:130px;
+    height:130px;
+    padding-top:10px;
+    margin-top:45px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+.content .qrcode img{
+    width:102px;
+    height:102px;
+}
+.content .qrcode>p{
+    font-size: 12px;
+    color:#333333;
+    margin: 0;
+    padding-top: 3px;
+}
+.advantage-container{
+    width:100%;
+    height:350px;
+    background: #fff;
+}
+.advantage-list{
+    position: relative;
+    left:136.5px;
+    width:1200px;
+    height:264px;
+    padding-top: 39px;
+    text-align: center;
+}
+.advantage-list .item{
+    width:204px;
+    height:205px;
+    margin-left: 58px;
+    color: #333333;
+    float: left;
+}
+.advantage-list .item>img{
+    width:204px;
+    height:151px;
+}
+.advantage-list .item>p{
+    width:204px;
+    height:30px;
+    line-height: 30px;
+    font-size: 22px;
+    margin: 0 0 9px;
+}
+.advantage-list .item>span{
+    font-size: 14px;
+}
+.kind-container{
+    width:100%;
+    height:536px;
+    margin: 0 auto;
+}
+.kind-container .kind-list{
+    width:1200px;
+    height:437px;
+    position: relative;
+    left:136.5px;
+    padding-top: 100px;
+}
+.kind-container .kind-list .item{
+    width:227px;
+    height:337px;
+    padding-top: 53px;
+    color: #333333;
+    margin-left: 58px;
+    float: left;
+}
+.kind-container .kind-list .item>h5{
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+.kind-container .kind-list .item>img{
+    width:61px;
+    height:65px;
+    margin: 24px 83px;
+}
+.kind-container .kind-list .item>p{
+    height:44px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0;
+}
+.kind-container .kind-list .item>div{
+    margin-top: 27px;
+    margin-left: 53px;
+    width: 121px;
+    height: 40px;
+    background: #FF5A56;
+    box-shadow: 0 3px 4px 0 #FFCCCC;
+    border-radius: 22px;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: .3px;
+    line-height: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+.flow-container{
+    width:100%;
+    height:400px;
+}
+.flow-steps{
+    width:1200px;
+    height:314px;
+    position: relative;
+    left:136.5px;
+    padding-top: 60px;
+    text-align: center;
+}
+.flow-steps .title{
+    height:42px;
+    line-height: 42px;
+    font-size: 30px;
+    display: block;
+    color: #333333;
+    margin: 0;
+}
+.flow-steps .step-image{
+    width:880px;
+    height:69px;
+    margin: 100px auto 21px;
+    background-image: url(../img/lent/step.png);
+    background-size: 880px 69px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.flow-steps .steps-list{
+    position: relative;
+    left: 136.5px;
+    width: 1200px;
+    height:22px;
+}
+.flow-steps .steps-list .step{
+    float: left;
+    width: 80px;
+    height:22px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #666666;
+    margin: 0;
+    margin-left: 130px;
+}
+.flow-steps .steps-list>.step:first-child{
+    margin-left:0;
+}
+.question-container{
+    width:100%;
+    height:755px;
+}
+.question-content{
+    width:1200px;
+    height:703px;
+    position: relative;
+    left:106.5px;
+    padding:60px 30px 0;
+}
+.question-content .title{
+    height:42px;
+    line-height: 42px;
+    font-size: 30px;
+    display: block;
+    color: #333333;
+    margin: 0;
+    text-align: center;
+}
+.question-list{
+    margin-top: 88px;
+}
+.question-list h5{
+    font-size: 18px;
+    color: #333333;
+    font-weight: normal;
+    line-height: 25px;
+    margin: 0;
+}
+.question-list p{
+    margin-top: 12px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 22px;
+}
+.question-list .more{
+    margin-top: 23px;
+    font-size: 16px;
+    color: #999999;
+}
+.question-list .more>a{
+    color: #2fa9fe;
+    text-decoration: none;
+}

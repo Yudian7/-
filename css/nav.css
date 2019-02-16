@@ -1,0 +1,49 @@
+.m-nav-container{
+    width:1386px;
+    height:80px;
+}
+.m-nav-container .empty{
+    float: left;
+    width:320px;height: 78px;
+}
+.m-nav-container .image_logo{
+    float: left;
+    padding-top: 13px;
+    margin-right: 20px;
+}
+.m-nav-list{
+    list-style: none;
+    float: left;
+}
+.m-nav-list li{
+    position: relative;
+    float: left;
+    font-size:16px;
+    margin-top: 7px;
+}
+.m-nav-list li a{
+    text-decoration: none;
+    color: #333;
+    width: auto;
+    height:29px;
+    line-height: 29px;
+    padding: 0 13px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.m-nav-list li a:hover{
+    font-weight: 600;
+}
+.u-nav-loginInfo{
+    margin-left: 14px;
+}
+.m-nav-list .u-nav-loginInfo a{
+    width:50px;height:30px;
+    padding: 0 5px;
+}
+.u-nav-loginInfo span{
+    width:3px;height:18px;
+}
+.m-nav-container .image_slogan{
+    float: left;
+}

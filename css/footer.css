@@ -1,0 +1,120 @@
+#footer{
+    width:100%;
+    display: block;
+    position: absolute;
+    top:2714px;
+    background: #4A4A4A;
+    overflow: hidden;
+}
+.top{
+    width:1200px;
+    height:150px;
+    margin: 0 auto;
+    padding-top: 28px;
+    padding-left:244px;
+    text-align: center;
+}
+.about_us,.company_products,.help_center,.secure_protect,.contact_us,.download{
+    text-align: left;
+    float: left;
+    margin-right:62px; 
+}
+
+.item li{
+    list-style:none;
+}
+.top ul h4{
+    color:#fff;
+    height:15px;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom:13px;
+}
+.item li{
+    line-height:25px;
+}
+.item a{
+    text-decoration: none;
+    color: #AFAFAF;
+    font-size: 14px;
+}
+.contact_us .item .phone{
+    color: #fff;
+}
+.contact_us .item .time,.addr{
+    font-size:12px;
+    color: #AFAFAF;
+}
+.download .item img{
+    width:70px;
+    height:70px;
+    padding:5px;
+}
+.download .item div{
+    height:80px;
+    width:80px;
+}
+#footer .medium{
+    font-size:12px;
+    color: #999;
+    height:40px;
+    text-align: center;
+}
+.medium>p{
+    height:20px;
+    line-height: 20px;
+    font-size:12px;
+    text-align: center;
+}
+.medium p:nth-child(2)>span{
+    position: absolute;
+    left:596px;
+}
+.medium p:nth-child(2)>a{
+    text-decoration: none;
+    color:#999
+}
+.medium p:nth-child(2)>a>img{
+    position: absolute;
+    left:805px;
+}
+.medium p:nth-child(2)>a>span{
+    position: absolute;
+    left:827px;
+}
+.medium .sta>a{
+    width:48px;
+    height:15px;
+    position: absolute;
+    left:410px;
+    text-decoration: none;
+    color:#999;
+}
+.medium #risk{
+    width:132px;
+    height:15px;
+    position: absolute;
+    left:1058px;
+    text-align: center;
+}
+#bottom_item{
+    overflow: hidden;
+    text-align: center;
+    list-style: none;
+    margin-left:680px ;
+
+}
+#bottom_item a{
+    float: left;
+    margin-right: 10px;
+}
+#bottom_item img{
+    width:62px;
+    height:24px;
+    border-radius: 3px;
+    margin-top:12px;
+    margin-bottom: 20px;
+}
+
+
+

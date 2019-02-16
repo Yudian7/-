@@ -1,0 +1,326 @@
+.bg_debt{
+    height:220px;
+    background: url("../img/loan/bg-debt.jpg") no-repeat center;
+    background-size:1920px 220px;
+}
+.product-select{
+    border-bottom: 1px solid #e8e8e8;
+    height:52px;
+    line-height: 52px;
+}
+.product-select .item{
+    width:76px;
+    height:52px;
+    float: left;
+    font-size: 18px;
+    position: relative;
+    top:-17px;
+    left:240px;
+    margin-right: 10px;
+}
+.product-select .item a{
+    text-decoration: none;
+    width:76px;
+    height: 50px;
+    line-height: 50px;
+    color: #666;
+}
+.product-select .item:first-child>a{
+    color: #ff4646;
+}
+.debt-select{
+    position: relative;
+    left:240px;
+    height: 30px;
+    width:1200px;
+    margin-top:35px ;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+.debt-select .name{
+    font-size: 16px;
+    font-weight:700 ;
+    color: #333;
+    float: left;
+    margin:0px;
+}
+.debt-select .term{
+    list-style: none;
+}
+.debt-select .term>li{
+    float: left;
+    height:30px;
+    width:84px;
+    margin-left: 24px;
+}
+.debt-select .term>li>p{
+    margin: 0;
+    width:60px;
+    height:30px;
+}
+.debt-select .term .month>p{
+    background: #ff4646;
+    color: #fff;
+    box-shadow: 0 3px 5px rgba(255,42,42,.4);
+    text-align: center;
+}
+.debt-select .term li p{
+    cursor: pointer;
+}
+.debt-select .term li p:hover{
+    color: #ff4646;
+}
+.list-container{
+    width:1200px;
+    height:1480px;
+    position: relative;
+    left:240px;
+    float: left;
+}
+.list-container>.item{
+    display: block;
+    width:1200px;
+    height:130px;
+    margin-bottom: 20px;
+    padding:25px 20px 0 30px;
+    border: 1px solid #e8e8e8;
+    background: #fff;
+    position: relative;
+    text-decoration: none;
+}
+.list-container .item:hover{
+    box-shadow:0px 0px 16px 0px #FFA5A5;
+}
+.list-container .name{
+    margin: 0;
+}
+.list-container .name>span{
+    width:187px;
+    height:18px;
+    color: #666;
+    font-size:16px;
+    line-height: 18px;
+    font-weight: normal;
+}
+.list-container .name>img{
+    width:67px;
+    height:20px;
+    vertical-align: top;
+    margin-left: 6px;
+}
+.detail_period{
+    width:1148px;
+    height:57px;
+    margin-top: 10px;
+    float: left;
+}
+.detail_period div{
+    display: inline-block;
+    float: left;
+}
+.detail_period div span{
+    color: #BEBEBE;
+    height:17px;
+    line-height: 17px;
+}
+.detail_period .apr{
+    width:200px;
+    height:57px;
+
+}
+.detail_period .apr>span:first-child{
+    width:49px;
+    height:37px;
+    margin-top:0;
+    margin-bottom: 3px;
+    font-size: 26px;
+    line-height: 37px;
+    color: #FE4646;
+}
+.detail_period .apr>span:nth-child(2){
+    width:49px;
+    font-size:16px;
+    color: #FE4646;
+    position: relative;
+    left:-5px;
+}
+.detail_period .apr>p{
+    width:49px;
+    font-size:12px;
+    color: #BEBEBE;
+}
+.detail_period .time{
+    width:130px;
+    height:57px;
+    display: inline-block;
+}
+.detail_period .time>span:first-child{
+    width:130px;
+    height:37px;
+    margin-bottom: 3px;
+    margin-top: 0;
+    color: #666;
+    font-size:26px;
+    line-height: 37px;
+}
+.detail_period .time>span:nth-child(2){
+    width:130px;
+    height:37px;
+    margin-bottom: 3px;
+    margin-top: 0;
+    color: #666;
+    font-size:16px;
+    line-height: 37px;
+    position: relative;
+    left:-5px;
+    top:2px;
+}
+.detail_period .time>p{
+    width:130px;
+    height:17px;
+    line-height: 17px;
+    font-size: 12px;
+    color:  #BEBEBE;
+    margin-bottom: 0;
+    margin-top:6px;
+}
+.account{
+    width:150px;
+    height:57px;
+}
+.account>p{
+    width:150px;
+    height:25px;
+    margin: 11px 0 7px;
+    font-size:16px;
+    line-height: 22px;
+    color: #666;
+}
+.account>span{
+    width:150px;
+    font-size:12px;
+}
+.remain{
+    width:142px;
+    height:57px;
+}
+.remain>p{
+    width:142px;
+    height:25px;
+    line-height: 22px;
+    color: #666;
+    font-size: 16px;
+    margin: 11px 0 7px;
+}
+.remain>span{
+    width:142px;
+    font-size:12px;
+}
+.way{
+    width:196px;
+    height:57px;
+}
+.way>p{
+    width:196px;
+    height:25px;
+    line-height: 22px;
+    color: #666;
+    font-size: 16px;
+    margin: 11px 0 7px;
+}
+.way>span{
+    width:196px;
+    font-size:12px;
+}
+.circle{
+    width:148px;
+    height:40px;
+}
+.progress{
+    margin: 21px 0 13px;
+    position: relative;
+    width: 100px;
+    height: 6px;
+    background: rgba(175,175,175,.29);
+    border-radius: 3px;
+}
+.circle .bar{
+    display: block;
+    height:6px;
+    background-color: #F45355;
+    background-image: linear-gradient(-90deg,#F45355 0,#FB8D21 100%);
+    border-radius: 3px;
+}
+.circle .progress>span{
+    position: absolute;
+    top:-6px;
+    left:105px;
+    font-size: 12px;
+    color: #BEBEBE;
+}
+.detail_period .link{
+    float: right;
+    width:120px;
+    height:40px;
+    margin: 13px 0 0 0;
+}
+.link>button{
+    width:120px;
+    height:40px;
+    border: 1px solid #ff4646;
+    background: #ff4646;
+    color: #fff;
+}
+.risk_tip{
+    float: right;
+    margin:0;
+    color: #999;
+    font-size: 14px;
+}
+.page{
+    position:absolute;
+    top:2300px;
+    left:240px;
+    width:1200px;
+    height:130px;
+    padding-top: 40px;
+    text-align: center;
+}
+.page .page-box{
+    width:685px;
+    margin:0 auto;
+}
+.f-fl{
+    list-style: none;
+    float: left;
+}
+.f-fl>li{
+    float: left;
+
+}
+.f-fl>li:hover{
+    border: 1px solid #ff4646;
+    color: #ff4646;
+}
+.f-fl li a{
+    text-decoration: none;
+    color: #999;
+}
+.f-fl button.current{
+    border: 1px solid #ff4646;
+    color: #ff4646;
+}
+.f-fl button{
+    width:38px;
+    height:38px;
+    color: #fff;
+    cursor: pointer;
+}
+.f-fl>li:first-child>button{
+    width:105px;
+    height:38px;
+}
+.f-fl>li:last-child>button{
+    width:105px;
+    height:38px;
+}

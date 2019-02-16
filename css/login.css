@@ -1,0 +1,90 @@
+.center_login{
+    position: relative;
+    width:100%;
+    height:700px;
+    background-image: url(../img/login/bg-1.jpg);
+}
+.center_login .entry-box{
+    width:780px;
+    height:490px;
+    position:absolute;
+    top:50%; left:50%;
+    margin-top: -245px;
+    margin-left: -390px;
+    box-shadow: 0 2px 9px rgba(149,162,164,0.4);
+    background: rgba(255,255,255,0.47);
+    background-image: url(../img/login/bg2.png);
+    background-size: 360px 121px;
+    background-position: 36px 40px;
+    background-repeat:no-repeat;
+}
+.center_login .entry-box .right-box{
+    float: right;
+    width:344px;
+    height:450px;
+    padding-top: 40px;
+    text-align: center;
+    background: white;
+    overflow: hidden;
+}
+.right-box .avatar{
+    position: relative;
+    width:76px;
+    height:76px;
+    margin: 4px auto 0;
+    background-image: url(../img/login/avatar.png);
+    background-size:76px 76px ;
+    background-position:left center;
+    background-repeat: no-repeat;
+    border-radius:40px;
+}
+.link-register{
+    margin: 12px 0 36px;
+}
+.link-register span{
+    color: #bbbbbb;
+    font-size: 14px;
+}
+.link-register a{
+    text-decoration: none;
+    color: #333;
+}
+.login_form{
+    height:174px;
+}
+.input{
+    position: relative;
+    margin:0 auto;
+}
+.login_form input{
+    width:264px;
+    height:35px;
+    border:none;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 14px;
+    line-height: 22px;
+}
+input::-webkit-input-placeholder{
+    color:#bbbbbb;
+}
+.error{
+    width:264px;
+    height:22px;
+}
+.submit{
+    width:264px;
+    height:44px;
+    margin:0 auto 36px;
+    background-color: #d94b4b;
+    font-size:18px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+.right-box a {
+    text-decoration: none;
+}
+#footer{
+    position: absolute;
+    top:780px !important;
+}
